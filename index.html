@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <!-- This is a link to an external stylesheet, specifically Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- This is a link to Google Fonts, which allows us to use a custom font on our website -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- This is another link to Google Fonts, which helps us load the font properly -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- This is a link to Google Fonts, which allows us to use the Raleway font on our website -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- This is a link to an external stylesheet, specifically our custom stylesheet styles.css -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental-Health</title>
+    <!-- This sets the title of the webpage, which appears in the browser's title bar and in search engine results -->
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!-- This is a navigation bar, which contains links to different pages on our website -->
+        <div class="container-fluid">
+            <!-- This is a container that holds the navigation bar content -->
+            <a class="navbar-brand" href="index.html">Home</a>
+            <!-- This is a link to the home page of our website -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- This is a button that toggles the navigation bar when clicked -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!-- This is a container that holds the navigation bar items when they are collapsed -->
+            <ul class="navbar-nav">
+                <!-- This is an unordered list that contains the navigation bar items -->
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <!-- This is a link to the home page of our website, which is currently active -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    <!-- This is a link to the contact page of our website -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="videos.html">Videos</a>
+                    <!-- This is a link to the videos page of our website -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wellness.html">Wellness Resources</a>
+                    <!-- This is a link to the wellness resources page of our website -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <!-- This is a container that holds the main content of the webpage, with some padding at the top (mt-5) -->
+        <h1 class="text-center mb-4 raleway">Mental Health and Wellness Resources</h1>
+        <!-- This is a heading that sets the title of the webpage and uses a custom font (Raleway) -->
+        <div class="row">
+            <!-- This is a row that contains three columns (col-md-4) for displaying content in different ways -->
+            <div class="col-md-4 bg-dark text-white rounded-4 border border-5">
+                <!-- This is a column that contains a heading and paragraph of text, with a dark background and white text -->
+                <h2><a class="raleway link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-white" href="contact.html">Contact</a></h2>
+                <p>Contact us.</p>
+            </div>
+            <div class="col-md-4 bg-dark text-white rounded-4 border border-5">
+                <!-- This is another column that contains a heading and paragraph of text, with a dark background and white text -->
+                <h2><a class="raleway link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-white" href="videos.html">Videos</a></h2>
+                <p>Watch mental wellness videos.</p>
+            </div>
+            <div class="col-md-4 bg-dark text-white rounded-4 border border-5">
+                <!-- This is another column that contains a heading and paragraph of text, with a dark background and white text -->
+                <h2><a class="raleway text-white link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover color" href="wellness.html">Wellness Resources</a></h2>
+                <p>Check out our helpful resources for mental health wellness.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>

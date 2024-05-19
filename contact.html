@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        
+        <div class="container-fluid">
+          
+            <a class="navbar-brand" href="contact.html">Contact Us</a>
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                     <a class="nav-link active"aria-current="page" href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                     <a class="nav-link" href="videos.html">Videos</a>
+                    </li>
+
+                    <li class="nav-item">
+                     <a class="nav-link" href="wellness.html">Wellness Resources</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--represents a navigation bar. It contains a <div> with the class "container-fluid" 
+    that wraps the navigation links and a toggle button for mobile devices.
+    Each list item represents a navigation link.-->
+
+
+    <form class="row-g3">
+         <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+        <div class="mb-3">
+             <label for="comments" class="form-label">Ask us your questions or leave a comment</label>
+             <textarea class="form-control border-5" id="comments" rows="3"></textarea>
+        </div>
+
+         <div class="col-auto">
+             <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        </div>
+
+        <h2 class="text-center">Or call us now</h2>
+
+    </form>
+<!--allows users to input their email address and leave comments-->
+
+    <table class="table table-dark">
+        <thead>
+          Our
+        </thead>
+          <tbody>
+          <tr class="table-active">
+            Contact
+          </tr>
+          <tr>
+            Info
+          </tr>
+          <tr>
+            <th scope="row">Number & Email</th>
+            <td colspan="2" class="table-active">123-456-7890</td>
+            <td>Name@email.com</td>
+          </tr>
+        </tbody>
+    </table>
+<!--a table with contact information. It has a <thead> section for the table header 
+    and a <tbody> section for the table body.-->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
